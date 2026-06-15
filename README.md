@@ -10,12 +10,12 @@ This repository contains a Python implementation of an end-to-end multi-sensor f
 ## Technology Stack
 * **Language:** Python
 * **Libraries:** NumPy, OpenCV, Matplotlib
-* **Environment:** Google Colab / Jupyter Notebooks
+* **Environment:** Google Colab / Visual Studio Code
 * **Dataset:** KITTI Tracking Dataset
 
 ## Repository Structure
 * `notebooks/`: Contains the primary development notebook with step-by-step projection geometry.
-* `data/`: Local directory for KITTI calibration, image_02, and velodyne data streams.
+* `data/`: Local directory for KITTI calibration, image, and velodyne data streams.
 
 ## Getting Started
 
@@ -23,3 +23,10 @@ This repository contains a Python implementation of an end-to-end multi-sensor f
 Ensure you have the required libraries installed:
 ```bash
 pip install numpy opencv-python matplotlib
+
+### Dataset Setup
+1. Download the calibration files and object data from the [KITTI Tracking Benchmark](https://www.cvlibs.net/datasets/kitti/eval_tracking.php).
+2. Place the unzipped sensor streams into the `data/` directory.
+
+### Running the Pipeline
+Open the notebook in the `notebooks/` directory or upload it directly to Google Colab to run the cells sequentially.
