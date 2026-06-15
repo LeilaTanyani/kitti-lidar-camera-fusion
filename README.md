@@ -1,5 +1,7 @@
 # LiDAR-Camera Data Fusion Pipeline
 
+![Visual Fusion Pipeline in Action](output/out_2.gif)
+
 This repository contains a Python implementation of an end-to-end multi-sensor fusion pipeline. Using the KITTI tracking dataset, the project projects 3D LiDAR point clouds onto 2D camera images to achieve spatial synchronization between independent sensors.
 
 ## Features
