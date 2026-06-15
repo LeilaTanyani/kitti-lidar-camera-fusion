@@ -29,4 +29,4 @@ pip install numpy opencv-python matplotlib
 2. Place the unzipped sensor streams into the `data/` directory.
 
 ### Running the Pipeline
-Open the notebook in the `notebooks/` directory or upload it directly to Google Colab to run the cells sequentially.
+ To run the cells sequentially, upload it directly to Google Colab.
