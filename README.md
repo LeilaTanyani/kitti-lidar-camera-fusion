@@ -10,7 +10,7 @@ This repository contains a Python implementation of an end-to-end multi-sensor f
 * **Visualization:** Generates overlaid multi-modal images mapping depth intensity onto 2D camera frames.
 
 ## Technology Stack
-* **Language:** Python
+* **Language:** Python, C++, CUDA
 * **Libraries:** NumPy, OpenCV, Matplotlib
 * **Environment:** Google Colab / Visual Studio Code
 * **Dataset:** KITTI Tracking Dataset
